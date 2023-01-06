@@ -1,0 +1,10 @@
+@import url("./reset.scss");
+@import url("./variables.scss");
+@import url("./breakpoint.scss");
+@import url("./switch.scss");
+
+#root {
+  min-height: 100vh;
+  background: var(--white-color);
+  background: linear-gradient(90deg, var(--primary-color), var(--white-color));
+}

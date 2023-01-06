@@ -1,0 +1,18 @@
+.home {
+  
+  &_img {
+    min-height: 100vh;
+    object-fit:cover;
+    background-position: center;
+    overflow: hidden;
+    max-width: 100%;
+     @include respond-to("small") {
+        width: 100%;
+        object-fit: contain;
+        overflow: hidden;
+        min-height: auto
+
+      }
+
+  }
+}
