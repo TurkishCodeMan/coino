@@ -1,0 +1,17 @@
+.btn {
+    background-color: var(--secondary-color);
+    padding: .8rem .5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.secondary_btn {
+    background-color: var(--light-util-color);
+}
+.err_btn {
+    background-color: rgb(187, 59, 59);
+}

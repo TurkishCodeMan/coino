@@ -1,16 +1,16 @@
 :root {
-  --primary-color: #f0f0f0;
-  --white-color:rgba(229, 233, 252, 1) 2%;
-  --secondary-color:#FAEAB1;
+  --primary-color: #E5E5CB;
+  --white-color:rgba(229, 233, 252, 1) 100%;
+  --secondary-color:#D5CEA3;
   --util-color:#144272;
-  --light-util-color:#E5BA73;
+  --light-util-color:#F2F7A1;
   --footer-bg:#6798bb;
   color-scheme: light dark;
 }
 body.dark-mode {
-  --primary-color: #2D033B;
-  --white-color:rgba(0, 68, 117, 1) 100%;
-  --secondary-color:#0A2647;
+  --primary-color: #2e2014;
+  --white-color:rgba(0, 120, 117, 1) 100%;
+  --secondary-color:#3C2A21;
   --util-color:#C58940;
   --light-util-color:#2C74B3;
   --footer-bg:#374e5e;

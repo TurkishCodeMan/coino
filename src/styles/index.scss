@@ -2,9 +2,18 @@
 @import url("./variables.scss");
 @import url("./breakpoint.scss");
 @import url("./switch.scss");
+@import url('@reach/dialog/styles.css');
+@import url('@reach/listbox/styles.css');
+@import url("@reach/menu-button/styles.css");
 
 #root {
   min-height: 100vh;
   background: var(--white-color);
   background: linear-gradient(90deg, var(--primary-color), var(--white-color));
+}
+
+[data-reach-menu-list] {
+  padding: 20px 10px;
+  background-color: var(--util-color);
+  border-radius: 10px;
 }

@@ -7,18 +7,28 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint \"src/**/*.{ts,tsx}\" --quiet", 
-       "lint:fix": "eslint --fix",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --quiet",
+    "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "@reach/combobox": "^0.18.0",
+    "@reach/dialog": "^0.18.0",
+    "@reach/listbox": "^0.18.0",
+    "@reach/menu-button": "^0.18.0",
+    "@reach/tooltip": "^0.18.0",
+    "@reach/visually-hidden": "^0.18.0",
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.2",
+    "dequal": "^2.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-image-holder": "^2.0.1",
+    "react-redux": "^8.0.5",
     "react-router": "^6.6.1",
-    "react-router-dom": "^6.6.1"
+    "react-router-dom": "^6.6.1",
+    "react-toastify": "^9.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
